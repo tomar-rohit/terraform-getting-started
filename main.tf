@@ -1,4 +1,4 @@
-provider "google" {
+oprovider "google" {
 project = "dms-testing-hcl"
 region = "us-west1"
 }
@@ -8,7 +8,7 @@ name = "myvm-dev"
 zone = "us-west1-c"
 boot_disk {
 initialize_params {
-  image = "debian-cloud/debian-9"
+  image = "debian-cloud/debian-11"
   size = "10"
 }
 }
