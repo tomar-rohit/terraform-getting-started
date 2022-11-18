@@ -1,4 +1,4 @@
-oprovider "google" {
+provider "google" {
 project = "dms-testing-hcl"
 region = "us-west1"
 }
